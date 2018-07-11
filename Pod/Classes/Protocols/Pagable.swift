@@ -6,7 +6,7 @@
 //  Copyright (c) 2016 kitasuke. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 protocol Pagable {
     var currentPage: Int { get }
