@@ -560,7 +560,7 @@ extension PagingMenuController {
     }
     
     fileprivate func validateDefaultPage(_ options: PagingMenuControllerCustomizable) {
-        let maxCount: Int
+        var maxCount: Int = 0
         switch options.componentType {
         case .pagingController(let pagingControllers):
             maxCount = pagingControllers.count
